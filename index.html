@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Onn Life Pharmaceuticals</title>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400,500" rel="stylesheet">
+	<style>
+	body,html {
+		margin:0;padding:0;background-color: #fff;font-family: 'Roboto', sans-serif;
+	}
+	*:after, *:before, * {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.wrapper .left {
+		position: relative;
+		z-index: 1;
+		width: 60%;
+		height: 100vh;
+		float: left;
+		background: #fff;
+		padding: 0 5%;
+		text-align: center;
+	}
+	.wrapper .right {
+		position: relative;
+		z-index: 0;
+		width: 40%;
+		min-height: 100vh;
+		float: right;
+	}
+	.logo {
+		margin-top: 60px;
+		margin-bottom: 40px;
+		height: 150px;
+	}
+	.title  {
+		margin: 0;
+		padding:0; 
+		font-size: 25px;
+		line-height: 25px;
+		color: #0b1440;
+		font-weight: 400; 
+	}
+	.title span {
+		display: block;
+		font-family: 'Playfair Display', serif;
+		font-size: 60px;
+		font-style: italic;
+		font-weight: 700;
+		margin-top: 6px;
+		line-height: 60px;
+		color:#333;
+		margin-bottom: 50px;
+	}
+	.subtitle {
+		margin: 0;
+		padding:0; 
+		display: inline-block;
+		font-size: 20px;
+		line-height: 18px;
+		color: #7c756d;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		position: relative;
+	}
+	.subtitle:before {
+		content: '';
+		position: absolute;
+		top: -19px;
+		left: 50%;
+		margin-left: -25px;
+		width: 50px;
+		height: 4px;
+		background:#7c756d;
+	}
+	footer {
+		position: absolute;
+		z-index: 1;
+		left: 0;
+		bottom: 10px;
+		font-size: 10px;
+		text-align: center;
+		color: #6f7a82;
+		width: 100%;
+		font-size: 14px;
+
+	}
+	.bgimg {
+		position: absolute;
+		z-index: 0;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #fff url(bg.png) no-repeat right center;
+		background-size: contain;
+	}
+</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="left">
+			<img src="logo.png" class="logo">
+			<h4 class="title">Our website is <span>Under Construction</span></h4>
+			<span class="subtitle">Coming Soon!!!</span>
+			<footer>
+				Copyright © 2018 Zedan Group. All Rights Reserved.
+			</footer>
+		</div>
+		<div class="right">
+			<div class="bgimg"></div>
+		</div>
+	</div>
+</body>
+</html>

@@ -351,16 +351,14 @@ font-weight: 500;
 	background-attachment: fixed;
 	width: 100%;
 }
-.serviceban h2 {
-	text-align: center;
-	font-size: 30px;
-	line-height: 40px;
+.serviceban p {
+	background: url(../images/stes-icon.png) no-repeat left center;
+	text-align: left;
+	font-size: 45px;
+	line-height: 55px;
 	color: #fff;
-	font-family:  'Lora', serif;
-	padding: 80px 0;
-}
-.serviceban h2 span {
-	color: #b9d057;
+	font-family: 'Lora', serif;
+	padding: 90px 0 90px 200px;
 }
 .qualityban {
 	background: #ccc url(../images/bg-quality.jpg) no-repeat left center;
@@ -390,64 +388,16 @@ font-weight: 500;
 	font-weight: 500;
 	margin-bottom: 15px;
 }
-.clientBlk h2, .clientBlk p {
-	text-align: center;
+.contactBlk .halfContact{
+	background-color: #eef1f2;
+	height: 520px;
+	padding: 70px 50px 50px;
 }
-.clientBlk p {
-	font-size: 15px;
-	line-height: 20px;
-	color: #333;
-	padding-left: 50px;
-	width: 70%;
-	margin:0 auto;
+.contactBlk .halfForm{
+	background-color: #fff;
+	height: 520px;
+	padding: 70px 50px 50px;
 }
-.clientBlk ul {
-	list-style: none;
-	margin:25px 0;
-}
-
-.clientBlk ul li img {
-	padding:10px 5px;
-	width: 100%;
-}
-.testimonial h2 {
-	color: #fff;
-}
-.testiCaro p {
-	color: #fff;
-	font-family: "Playfair Display";
-	font-size: 14px;
-	font-style: italic;
-	line-height: 26px;
-	position: relative;
-	padding: 0px 0 15px 0;
-	/*background: url(../images/star.jpg) no-repeat center 10px;*/
-	width: 100%;
-}
-.testiCaro p::before {
-	content: "";
-}
-.testiCaro p::after {
-	content: "";
-}
-.testiCaro h5 {
-	color: #dcdcdc;
-	font-size: 20px;
-	text-align: left;
-	text-transform: uppercase;
-	line-height: 45px;
-}
-.testiCaro h5 img {
-	float: left;
-	margin-right:15px; 
-}
-
-.testiCaro img {
-	height: 40px;
-	margin: 0 auto 10px;
-	width: auto !important;
-}
-
 footer {
 	background: #000f19;
 	padding: 15px 0;
@@ -490,58 +440,8 @@ footer {
 .social li:last-child a:hover {
 	background:url(../images/social-all.png) no-repeat -143px 0;
 }
-.jobsBlk {
-	background-color: #243141;
-	padding:90px 0 50px 0;
-	position: relative;
-}
-.jobslist {
-	float: right;
-}
-.jobimg {
-	position: absolute;
-	width: 40%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: url(../images/jobs.jpg) no-repeat center top;
-	background-size: cover;
-}
-.jobslist h2 {
-	color: #fff;
-}
-.jobslist ul li {
-	width: 48%;
-	border-bottom: 1px rgba(255,255,255,0.1) solid;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-	display: inline-block;
-	padding-right: 15px;
-}
-.jobslist ul li span {
-	color: #ccc;
-	float: none;
-	font-size: 13px;
-}
-.jobslist ul li span:first-child {
-	width: 100%;
-	padding-left: 0;
-	border-left: 0;
-	font-size: 15px;
-	display: block;
-}
-.jobslist ul li span:nth-child(2) {
-	width: 30%;
-}
-.jobslist ul li span:last-child {
-	width: 100%;
-}
-.jobslist ul li span a {
-	color:#fff;
-	font-weight: 500;
-}
-.jobslist a.morebtn {
-	margin-top: 20px;
+.map {
+	height: 400px;
 }
 a.morebtn {
 	padding: 8px 30px 8px 20px;
@@ -599,13 +499,34 @@ a.morebtn:hover {
 	border-bottom: 1px #ccc solid;
 }
 .fot-mails  {
-    background: url(../images/mail.png) no-repeat left 0px;
-    padding-left: 34px;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-    border-bottom: 1px #ccc solid;
-    color: #239963 !important;
-    line-height: 16px !important;
+	background: url(../images/mail.png) no-repeat left 0px;
+	padding-left: 34px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px #ccc solid;
+	color: #e62f55 !important;
+	line-height: 16px !important;
+}
+.fot-mails  a {
+	color: #e62f55 !important;
+}
+.fot-ph  {
+	background: url(../images/phone.png) no-repeat left 0px;
+	padding-left: 34px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px #ccc solid;
+	color: #666 !important;
+	line-height: 16px !important;
+}
+.fot-wh  {
+	background: url(../images/whatsapp.png) no-repeat left 0px;
+	padding-left: 34px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px #ccc solid;
+	color: #666 !important;
+	line-height: 16px !important;
 }
 .con-right h3 a img {
 	display: inline-block;
@@ -635,16 +556,14 @@ a.morebtn:hover {
 	margin-bottom: 10px;
 }
 
-#contactus .contact-form {
-	width: 55%;
-	margin-right: 0;
-	float: right;
-}
 .sisterBlk {
 	padding: 60px 0;
 	background-color: #fff;
 }
-
+.prodBlk {
+	height: 800px;
+	background-color: #0d4f71;
+}
 
 /*Responsive*/
 @media screen and (max-width:991px) {
